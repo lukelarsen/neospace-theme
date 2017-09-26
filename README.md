@@ -15,3 +15,14 @@ colorscheme neospace-theme
 
 ## Companion Themes
 There is also an Airline and iTerm2 theme available in the this repo. They match the Vim/NeoVim theme.
+
+### Airline Theme
+#### Usage
+Make sure you have Airline installed. Then:
+```
+let g:airline_theme='neospace'
+```
+
+### iTerm2
+#### Usage
+Make sure you have iTerm2 installed. Then you can just double click the neospace.itermcolors file.
