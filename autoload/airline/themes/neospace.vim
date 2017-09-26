@@ -19,36 +19,36 @@ let s:R2 = [ '#c47cdb' , '#33363e' , 170 , 239  ]
 let s:R3 = [ '#c6c6c6' , '#33363e' , 251  , 237  ]
 
 " Right info BG same color as Mode
-let g:airline#themes#neospace = {}
-let g:airline#themes#neospace.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
-let g:airline#themes#neospace.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
-let g:airline#themes#neospace.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
-let g:airline#themes#neospace.replace = airline#themes#generate_color_map(s:R1, s:R2, s:R3)
+let g:airline#themes#neospace#palette = {}
+let g:airline#themes#neospace#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
+let g:airline#themes#neospace#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
+let g:airline#themes#neospace#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
+let g:airline#themes#neospace#palette.replace = airline#themes#generate_color_map(s:R1, s:R2, s:R3)
 
 "Not sure what they do
-let g:airline#themes#neospace.insert_replace = {
+let g:airline#themes#neospace#palette.insert_replace = {
             \ 'airline_a': [ s:R1[0]   , s:I1[1]   , s:R1[1]   , s:I1[3]   , ''     ] }
-let g:airline#themes#neospace.replace.airline_a = [ s:R1[0] , s:R1[1] , s:R1[2] , s:R1[3] , '' ]
+let g:airline#themes#neospace#palette.replace.airline_a = [ s:R1[0] , s:R1[1] , s:R1[2] , s:R1[3] , '' ]
 let s:IA = [ s:N2[0] , s:N3[1] , s:N2[2] , s:N3[3] , '' ]
-let g:airline#themes#neospace.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
+let g:airline#themes#neospace#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
 
 " Ale Errors/Warning
-let g:airline#themes#neospace.normal.airline_warning =
+let g:airline#themes#neospace#palette.normal.airline_warning =
       \ ['#000000', '#e5bf7e', 232, 92]
-let g:airline#themes#neospace.normal.airline_error =
+let g:airline#themes#neospace#palette.normal.airline_error =
       \ ['#ffffff', '#df6c76', 232, 92]
 
-let g:airline#themes#neospace.insert.airline_warning =
+let g:airline#themes#neospace#palette.insert.airline_warning =
       \ ['#000000', '#e5bf7e', 232, 92]
-let g:airline#themes#neospace.insert.airline_error =
+let g:airline#themes#neospace#palette.insert.airline_error =
       \ ['#ffffff', '#df6c76', 232, 92]
 
-let g:airline#themes#neospace.visual.airline_warning =
+let g:airline#themes#neospace#palette.visual.airline_warning =
       \ ['#000000', '#e5bf7e', 232, 92]
-let g:airline#themes#neospace.visual.airline_error =
+let g:airline#themes#neospace#palette.visual.airline_error =
       \ ['#ffffff', '#df6c76', 232, 92]
 
-let g:airline#themes#neospace.replace.airline_warning =
+let g:airline#themes#neospace#palette.replace.airline_warning =
       \ ['#000000', '#e5bf7e', 232, 92]
-let g:airline#themes#neospace.replace.airline_error =
+let g:airline#themes#neospace#palette.replace.airline_error =
       \ ['#ffffff', '#df6c76', 232, 92]
