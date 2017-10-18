@@ -37,6 +37,7 @@
 "     vim-leader-guide
 "     NERDTree
 "     Tagbar
+"     Vimagit
 " Wrap It Up
 """""""""""""""""""""""""""""""""""""""""""
 
