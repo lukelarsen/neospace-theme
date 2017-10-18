@@ -511,6 +511,10 @@ call s:hi('TagbarScope'       , 169 , '' , 'bold' , 'bold')
 hi link TagbarKind            Function
 hi link TagbarNestedKind      NSBlueBold
 
+" Vimagit
+hi link diffAdded             NSGreen
+hi link diffRemoved           NSMagenta
+
 
 
 
