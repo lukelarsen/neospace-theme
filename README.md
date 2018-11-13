@@ -26,3 +26,8 @@ let g:airline_theme='neospace'
 ### iTerm2
 #### Usage
 Make sure you have iTerm2 installed. Then you can just double click the neospace.itermcolors file.
+
+Some other settings to make iTerm2 look nicer:
+- Go to iTerm2 > Prefs > Profiles > NeoSpace Theme > Window > Style and select Compact.
+- Go to iTerm2 > Prefs > Appearance > Theme > Minimal
+
